@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+/*header strat*/
+header{
+	background-color: #FFFFFF;
+	padding: 5px 0;
+}
+.wrapper{
+	/* border: 1px solid red; */
+	width: 85%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	width: 25%;
+	float: left;
+
+}
+.logo img{
+	width: 100%;s
+
+}
+.menu{
+	width: 75%;
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0px 25px;
+	display: block;
+	color: #666B75;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: red;
+}
+/*header end*/
+/*banner strat*/
+.banner{
+	background-image: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*min-height: 500px;*/
+}
+.banner_content{
+	margin-top: 180px;
+    margin-bottom: 230px;
+    width: 30%;
+    font-size: 20px;
+    background-color: rgba(40,41,35,.5);
+}
+.banner_content h1{
+	color: #BABAC1;
+}
+.banner_content p{
+	font-size: 24px;
+    color: #BABAC1;
+    line-height: 1.3;
+}
+.banner_content button{
+	padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #323435;
+    color: #70777C;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*banner end*/
+/*services start*/
+.service{
+	padding: 50px 0;
+	background-color: #FFFFFF;
+}
+.single{
+	width: 30%;
+	float: left;
+	/*border-right: 1px solid black;*/
+	margin-left: 32px;
+}
+.title{
+	overflow: hidden;
+	margin-bottom: 4px;
+	margin-left: 100px;
+	float: left;
+	width: 50%;
+}
+.title h1{
+	color: #CEC3C8;
+}
+.image{
+}
+.image img{
+	width: 100%;
+}
+.content{
+	width: 90%;
+    float: left;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+.content p{
+	color: #8B8F8D;
+}
+.button{
+
+}
+.button button{
+	padding: 5px 15px;
+	background-color: #435C7B;
+	border-radius: 5px;
+	color: #B9D1E2;
+    cursor: pointer;
+    margin-left: 115px;
+}
+/*services end*/
+/*blog start*/
+.blog{
+	background-color: #FFFFFF;
+}
+.blog_content{
+	text-align: center;
+	color: #2BA6D1;
+	padding: 20px 0;
+}
+.blog_content p{
+	font-size: 15px;
+}
+/*blog end*/
+/*footer start*/
+.footer{
+}
+.footer_icon{
+	text-align: center;
+	padding: 12px 0;
+	cursor: pointer;
+	font-size: 30px;
+}
+.footer_icon i{
+}
+/*footer end*/
